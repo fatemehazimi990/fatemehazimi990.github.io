@@ -2,8 +2,8 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Tewodros A. Habtegebrial
-email: tedyhabtegebrial@gmail.com
+title: Fahemeh Azimi
+email: fatemeazeami1990@gmail.com
 description: > # this means to ignore newlines until "url:"
   Personal website.
 footer_text: >
@@ -36,9 +36,9 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: tedyhabtegebrial # your GitHub user name
-twitter_username: tedyamberbir # your Twitter handle
-linkedin_username: tedyhabtegebrial # your LinkedIn user name
+github_username: Fatemeh Azimi # your GitHub user name
+twitter_username: Fatemeh76291009 # your Twitter handle
+# linkedin_username:  # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
@@ -48,7 +48,7 @@ research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
 
 contact_note: >
-  Write me at tedyhabtegebrial@gmai.com
+  Write me at fatemeazeami1990@gmail.com
 
 google_analytics: # out your google-analytics code
 
@@ -56,7 +56,7 @@ google_analytics: # out your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: yalda  # your blog must have a name for it to show up in the nav bar
+blog_name: musings  # your blog must have a name for it to show up in the nav bar
 blog_description: blog
 permalink: /blog/:year/:title/
 
@@ -65,7 +65,7 @@ pagination:
   enabled: true
 
 # Comments
-disqus_shortname: teddy # put your disqus shortname
+disqus_shortname: fatemeh # put your disqus shortname
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -120,7 +120,7 @@ plugins:
 
 scholar:
 
-  last_name: Habtegebrial
+  last_name: Azimi
 
   style: apa
   locale: en
