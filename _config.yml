@@ -3,7 +3,7 @@
 # -----------------------------------------------------------------------------
 
 title: Fahemeh Azimi
-email: fatemeazeami1990@gmail.com
+email: fatemeh.azimi@dfki.de
 description: > # this means to ignore newlines until "url:"
   Personal website.
 footer_text: >
@@ -36,7 +36,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: Fatemeh Azimi # your GitHub user name
+github_username: fatemehazimi990 # your GitHub user name
 twitter_username: Fatemeh76291009 # your Twitter handle
 # linkedin_username:  # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
@@ -48,7 +48,7 @@ research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
 
 contact_note: >
-  Write me at fatemeazeami1990@gmail.com
+  Write me at fatemeh.azimi@dfki.de
 
 google_analytics: # out your google-analytics code
 
@@ -56,9 +56,9 @@ google_analytics: # out your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: musings  # your blog must have a name for it to show up in the nav bar
-blog_description: blog
-permalink: /blog/:year/:title/
+# blog_name: musings  # your blog must have a name for it to show up in the nav bar
+# blog_description: blog
+# permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
