@@ -1,10 +1,13 @@
 ---
-layout: page
-title: HS2S
-description: 'Hybrid Sequence to Sequence Model for Video Object Segmentation'
-img: /assets/img/teaser.png
-importance: 2
+layout:
+title:
+description:
+img: ./assets/img/teaser.png
+importance: 4
 ---
+
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+<script type="text/javascript">google.load("jquery", "1.3.2");</script>
 
 <style type="text/css">
 	body {
@@ -68,7 +71,7 @@ importance: 2
 		font-size: 22px;
 	}
 
-	<!-- .layered-paper-big { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+	.layered-paper-big { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
 		box-shadow:
 		        0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
 		        5px 5px 0 0px #fff, /* The second layer */
@@ -121,80 +124,133 @@ importance: 2
 	}
 </style>
 
+<html>
+	<head>
+		<title>Hybrid S2S-1</title>
+		<meta property="og:title" content="Hybrid S2S" />
+		<meta property="og:description" content="Azimi et al. 2020" />
+  </head>
 
-<!-- Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+  <body>
+    <br>
+          <center>
+          	<span style="font-size:36px"> Hybrid-S2S: Video Object Segmentation with Recurrent Networks and Correspondence Matching </span>
+	  		  <table align=center width=900px>
+						<tr><td><br/></td></tr>
+	  			  <tr>
+	  	              <td align=center width=200px>
+	  					<center>
+							<span style="font-size:20px"><a href="http://fatemeh.github.io/">Fatemeh Azimi<sup>1,2</sup> </a> </span>
+		  		  		</center>
+		  		  	  </td>
+	  	          <td align=center width=200px>
+	  					<center>
+							<span style="font-size:20px"><a href="https://stanifrolov.github.io/">Stanislav Frolov<sup>1,2</sup></a></span>
+		  		  		</center>
+		  		  	  </td>
+	  	              <td align=center width=150px>
+	  					<center>
+							<span style="font-size:20px"><a href="http://rave78.com/">Federico Raue<sup>2</sup></a></span>
+		  		  		</center>
+		  		  	  </td>
+	  	              <td align=center width=150px>
+	  					<center>
+	  						<span style="font-size:20px"><a href="http://joernhees.de/blog/">Joern Hees<sup>2</sup></a></span>
+		  		  		</center>
+		  		  	  </td>
+								<td align=center width=200px>
+							<center>
+								<span style="font-size:20px"><a href="http://www.dfki.uni-kl.de/~dengel/">Andreas Dengel<sup>1,2</sup></a></span>
+								</center>
+								</td>
+		  		  </tr>
+			  </table>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so: -->
+				<table align=center width=400px>
+				<tr>
+				<td align=center width=200px> <sup>1</sup> TU Kaiserslautern</td>
+				<td align=center width=200px> <sup>2</sup> DFKI Kaiserslautern</td>
+				</tr>
+				</table>
+    </center>
+		  <br>
+      <center>
+  	<table align=center width=750px>
+			<tr>
+				<td align="justify">In this figure,  we depict the overall architecture of S2S [1] and our HS2S method.
+				  In HS2S, we initialize the RNN hidden states with zeros, instead of using the initializer network.
+					We keep track of the target object by feeding the previous segmentation mask to the encoder as an additional input channel.  Furthermore, we use a separate reference encoder to process the input to the matching branch.
+					The hidden state of the RNN is combined with the encoded features from the matching branch via a merge layer and passed to the decoder to predict the segmentation mask.</td>
+      </tr>
+			<td width=35px> &emsp; </td>
+			<tr>
+  				<center>
+						<img class="round" style="width:700px" src="/assets/img/HS2S.png"/>
+	  			</center>
+			</tr>
+		</table>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    --- -->
+	</center>
 
-<!-- <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/1.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/3.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+	<hr>
+				<table align="center" width=850px>
+					<center> Accepted at WiML-NeurIPS-2020 </center>
+				</table>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images. -->
+  		  <table align=center width=850px>
+	  		  <center><h1>Abstract</h1></center>
+	  		  <tr>
+	  		  	<td>
+							<div align="justify">
+							One-shot Video Object Segmentation~(VOS) is the task of pixel-wise tracking an object of interest within a video sequence, where the segmentation mask of the first frame is given at inference time.
+							In recent years, Recurrent Neural Networks~(RNNs) have been widely used for VOS tasks, but they often suffer from limitations such as drift and error propagation.
+							In this work, we study an RNN-based architecture and address some of these issues by proposing a hybrid sequence-to-sequence architecture named HS2S, utilizing a dual mask propagation strategy that allows incorporating the information obtained from correspondence matching.
+							Our experiments show that augmenting the RNN with correspondence matching is a highly effective solution to reduce the drift problem.
+							The additional information helps the model to predict more accurate masks and makes it robust against error propagation.
+							We evaluate our HS2S model on the DAVIS2017 dataset as well as Youtube-VOS.
+							On the latter, we achieve an improvement of 11.2pp in the overall segmentation accuracy over RNN-based state-of-the-art methods in VOS.
+							We analyze our model's behavior in challenging cases such as occlusion and long sequences and show that our hybrid architecture significantly enhances the segmentation quality in these difficult scenarios
+
+							</div>
+	  		    </td>
+	  		  </tr>
+			</table>
+
+			<hr>
+
+	  	<table align=center width=750px>
+					<tr><td> <center><h1>Method Overview</h1></center> </td></tr>
+					<tr>
+						<td align="justify">In this figure,  we depict the overall architecture of S2S [1] and our HS2S method.
+						  In HS2S, we initialize the RNN hidden states with zeros, instead of using the initializer network.
+							We keep track of the target object by feeding the previous segmentation mask to the encoder as an additional input channel.  Furthermore, we use a separate reference encoder to process the input to the matching branch.
+							The hidden state of the RNN is combined with the encoded features from the matching branch via a merge layer and passed to the decoder to predict the segmentation mask.</td>
+		      </tr>
+					<tr>
+							<center>
+								<img class="round" style="width:700px" src="/assets/img/HS2S.png"/>
+							</center>
+					</tr>
+			</table>
+
+		<div>
+			<br>
+				<table align=center width=900px>
+					<tr> <td> <center> <span style="font-size:24pt"> Acknowledgments </span> </center> </td> </tr>
+					<tr>
+						<td align="justify">This work was supported by the TU Kaiserslautern CS PhD scholarship program, the BMBF project ExplAINN (01IS19074), and the NVIDIA AI Lab (NVAIL) program.
+						Further, we thank all members of the Deep Learning Competence Center at the DFKI for their feedback and support. </td>
+		      </tr>
+				</table>
+		</div>
 
 
-<!-- <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div> -->
-
-<div>
-
-<!-- <td><a href="https://arxiv.org/abs/2008.09106"><img class="layered-paper-big" style="height:175px" src="./resources/paper.png"/></a></td> -->
-<img class="layered-paper-big" style="height:175px" src="/assets/img/paper.png"/>
-
-</div>
+		<table align=center width=900px>
+			<tr> <td> <span style="font-size:24pt"> References </span> </td> </tr>
+			<tr> <td> [1] YouTube-VOS: <em>Sequence-to-Sequence Video Object Segmentation</em>, Xu et al. <a href="https://openaccess.thecvf.com/content_ECCV_2018/papers/Ning_Xu_YouTube-VOS_Sequence-to-Sequence_Video_ECCV_2018_paper.pdf">link</a></td> </tr>
+		</table> <!-- -->
 
 
-<!-- The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/" target="_blank">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above: -->
 
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-```
+</body>
+</html>
