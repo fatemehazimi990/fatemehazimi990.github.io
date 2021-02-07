@@ -176,26 +176,6 @@ importance: 4
 		  <br>
 
 
-<!--
-      <center>
-  	<table align=center width=750px>
-			<tr>
-				<td align="justify">In this figure,  we depict the overall architecture of S2S [1] and our HS2S method.
-				  In HS2S, we initialize the RNN hidden states with zeros, instead of using the initializer network.
-					We keep track of the target object by feeding the previous segmentation mask to the encoder as an additional input channel.  Furthermore, we use a separate reference encoder to process the input to the matching branch.
-					The hidden state of the RNN is combined with the encoded features from the matching branch via a merge layer and passed to the decoder to predict the segmentation mask.</td>
-      </tr>
-			<td width=35px> &emsp; </td>
-			<tr>
-  				<center>
-						<img class="round" style="width:700px" src="/assets/img/HS2S.png"/>
-	  			</center>
-			</tr>
-		</table>
-
-	</center>
--->
-
 	<hr>
 				<table align="center" width=850px>
 					<center> Accepted at WiML-NeurIPS-2020 </center>
