@@ -237,14 +237,14 @@ importance: 4
 			<img class="round" style="width:500px" src="/assets/img/movie_1.gif" />
 		</center>
 </tr>
-<br / >
+<br>
 
 <tr>
 		<center>
 			<img class="round" style="width:500px" src="/assets/img/movie_2.gif" />
 		</center>
 </tr>
-<br / >
+<br>
 
 <tr>
 		<center>
@@ -252,10 +252,10 @@ importance: 4
 		</center>
 </tr>
 
-<br / >
+<br>
 <tr>
 		<center>
-			<img class="round" style="width:500px" src="/assets/img/movie_5.gif" />
+			<img class="round" style="width:500px" src="/assets/img/movie_4.gif" />
 		</center>
 </tr>
 
