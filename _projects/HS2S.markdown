@@ -219,7 +219,7 @@ importance: 4
 
 <center><h1>Supplementary Video</h1></center>
 				<p align="center">
-				<iframe width="660" height="395" src="https://www.youtube.com/watch?v=UrZTMVo4EGQ&t=412s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="center"></iframe></p>
+				<iframe width="660" height="395" src="https://www.youtube.com/watch?v=UrZTMVo4EGQ&t=414s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="center"></iframe></p>
 
 
 <center><h1>Poster <a href="https://drive.google.com/file/d/10SpTMQMviXrV136AEjmP9NkYV5KW9KBO/view?usp=sharing">(link)</a> </h1></center>
