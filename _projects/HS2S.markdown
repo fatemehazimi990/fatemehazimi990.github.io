@@ -174,7 +174,7 @@ importance: 4
 				</table>
     </center>
 		  <br>
-      
+
 
 	<hr>
 				<table align="center" width=850px>
@@ -216,6 +216,48 @@ importance: 4
 							</center>
 					</tr>
 			</table>
+
+<center><h1>Supplementary Video</h1></center>
+				<p align="center">
+				<iframe width="660" height="395" src="https://www.youtube.com/watch?v=UrZTMVo4EGQ&t=412s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="center"></iframe></p>
+
+
+<center><h1>Poster <a href="https://drive.google.com/file/d/10SpTMQMviXrV136AEjmP9NkYV5KW9KBO/view?usp=sharing">(link)</a> </h1></center>
+
+<tr>
+		<center>
+			<img class="round" style="width:800px" src="/assets/img/HS2S.pptx.png" />
+		</center>
+</tr>
+
+<center><h1>Visual Samples from YouTube-VOS Dataset</h1></center>
+
+<tr>
+		<center>
+			<img class="round" style="width:500px" src="/assets/img/movie_1.gif" />
+		</center>
+</tr>
+<br / >
+
+<tr>
+		<center>
+			<img class="round" style="width:500px" src="/assets/img/movie_2.gif" />
+		</center>
+</tr>
+<br / >
+
+<tr>
+		<center>
+			<img class="round" style="width:500px" src="/assets/img/movie_3.gif" />
+		</center>
+</tr>
+
+<br / >
+<tr>
+		<center>
+			<img class="round" style="width:500px" src="/assets/img/movie_5.gif" />
+		</center>
+</tr>
 
 		<div>
 			<br>
