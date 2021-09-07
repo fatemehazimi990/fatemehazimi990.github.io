@@ -14,4 +14,5 @@ news: true
 social: true
 ---
 
-I come from a small town in Iran, called Bardaskan. I did my bachelor's in Electrical Eng. at Ferdowsi University of Mashhad. Afterward, I moved to Germany to pursue my master studies at RWTH Aachen in Electrical Eng. and Information Technology. Currently, I am working as a Ph.D. student at TU Kaiserslautern. My research interests are Computer Vision, Deep Learning, and Reinforcement Learning.
+I come from a small town in Iran, called [Bardaskan](https://en.wikipedia.org/wiki/Bardaskan). I did my bachelor's in Electrical Eng. at the Ferdowsi University of Mashhad. Afterward, I moved to Germany to pursue my master's studies at [RWTH Aachen](https://www.rwth-aachen.de/) in Electrical Eng. and Information Technology. 
+Currently, I am working as a Ph.D. student at [TU Kaiserslautern](https://www.uni-kl.de/en/) supervised by [professor Andreas Dengel](https://www.dfki.uni-kl.de/~dengel/indexEng.php). My current research focuses on Computer Vision and Deep Learning.
