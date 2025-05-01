@@ -10,7 +10,7 @@ profile:
   address: >
     <p>DFKI Kaiserslautern</p>
 
-news: true
+# news: true
 social: true
 ---
 

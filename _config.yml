@@ -56,9 +56,9 @@ google_analytics: # out your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 
-# blog_name: musings  # your blog must have a name for it to show up in the nav bar
-# blog_description: blog
-# permalink: /blog/:year/:title/
+blog_name: musings  # your blog must have a name for it to show up in the nav bar
+blog_description: blog
+permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
