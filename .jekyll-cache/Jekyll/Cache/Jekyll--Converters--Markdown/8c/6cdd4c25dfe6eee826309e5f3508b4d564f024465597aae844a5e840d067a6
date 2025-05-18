@@ -1,0 +1,19 @@
+I"i<h3 id="-citation">📄 Citation</h3>
+<p><strong>Denoising Diffusion Probabilistic Models</strong><br />
+Jonathan Ho, Ajay Jain, Pieter Abbeel (NeurIPS 2020).<br />
+<a href="https://arxiv.org/abs/2006.11239">Paper link</a></p>
+
+<h3 id="-core-idea">🧠 Core Idea</h3>
+<p>DDPM models data generation as a learned reversal of a noise diffusion process.</p>
+
+<h3 id="-key-insight">🧪 Key Insight</h3>
+<ul>
+  <li>Forward process: Adds Gaussian noise</li>
+  <li>Reverse process: Trained denoiser neural net</li>
+</ul>
+
+<h3 id="-takeaways">🔍 Takeaways</h3>
+<ul>
+  <li>Foundation for modern diffusion models</li>
+</ul>
+:ET
