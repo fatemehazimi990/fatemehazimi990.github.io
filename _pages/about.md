@@ -6,9 +6,9 @@ description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: fatemeh.jpeg
-  address: >
-    <p>DFKI Kaiserslautern</p>
+  image: fatemeh2.jpg
+  #address: >
+   # <p>DFKI Kaiserslautern</p>
 
 # news: true
 social: true
