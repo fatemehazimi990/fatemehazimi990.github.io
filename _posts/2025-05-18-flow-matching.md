@@ -13,7 +13,7 @@ Think of this as a high-level summary and hopefully intuitive explanation of two
 - Scaling Rectified Flow Transformers for High-Resolution Image Synthesis
 - Flow Matching for Generative Modeling
 
-▶️ [**Open in Colab**](https://colab.research.google.com/github/fatemehazimi990/fatemehazimi990.github.io/blob/source/notebook/flow_matching.ipynb)  
-📄 [**View on nbviewer**](https://nbviewer.org/github/fatemehazimi990/fatemehazimi990.github.io/blob/source/notebook/flow_matching.ipynb)
+▶️ [**Open in Colab**](https://colab.research.google.com/github/fatemehazimi990/fatemehazimi990.github.io/blob/source/notebook/FlowMatching_SD3.ipynb)  
+📄 [**View on nbviewer**](https://nbviewer.org/github/fatemehazimi990/fatemehazimi990.github.io/blob/source/notebook/FlowMatching_SD3.ipynb)
 
 The Colab link lets you experiment with the notebook live, while the nbviewer version provides a quick read-through.
