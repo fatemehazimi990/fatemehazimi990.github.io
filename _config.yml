@@ -55,9 +55,8 @@ google_analytics: # out your google-analytics code
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-
-blog_name: musings  # your blog must have a name for it to show up in the nav bar
-blog_description: blog
+blog_name: Learning Out Loud
+blog_description: Notes, experiments, and explanations as I learn and simplify complex ideas.
 permalink: /blog/:year/:title/
 
 # Pagination
