@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Fatemeh Azimi | Diffusion-based Image Editing - Part I</title>
+<title>Fatemeh Azimi | Flow Matching and Stable Diffusion 3.5 Review</title>
 <meta name="description" content="Personal website.
 ">
 
@@ -23,7 +23,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/2025/Diffusion-based-Image-Editing-PartI/">
+<link rel="canonical" href="/blog/2025/flow-matching/">
 
 <!-- Open Graph -->
 
@@ -44,7 +44,7 @@
       
       
       
-      <a class="navbar-brand title font-weight-lighter" href="/">
+      <a class="navbar-brand title font-weight-lighter" href="http://0.0.0.0:4000/">
        <span class="font-weight-bold">Fatemeh</span>   Azimi
       </a>
       
@@ -109,15 +109,25 @@
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Diffusion-based Image Editing - Part I</h1>
-    <p class="post-meta">May 25, 2025</p>
+    <h1 class="post-title">Flow Matching and Stable Diffusion 3.5 Review</h1>
+    <p class="post-meta">May 18, 2025</p>
   </header>
 
   <article class="post-content">
-    <p>In this post, I will summarize a collection of papers on image editing with diffusion models. This is intended to be a high-level overview, providing a sense of where the field currently stands, how it has evolved, and what kinds of methods researchers are exploring. This blog focuses more on the application side and assumes familiarity with diffusion models and conditional image generation.</p>
+    <p>Are you a bit confused by the shift in Stable Diffusion 3.5 (SD3) from traditional diffusion objective to flow matching? You’re not alone!</p>
 
-<p>📄 <a href="https://nbviewer.org/url/raw.githubusercontent.com/fatemehazimi990/fatemehazimi990.github.io/source/notebook/ImageEditing_Part1_v2.ipynb"><strong>View on nbviewer</strong></a></p>
+<p>In this blog, we’ll walk through the core ideas behind flow matching and explain how it’s applied in SD3.
+Think of this as a high-level summary and hopefully intuitive explanation of two key papers:</p>
 
+<ul>
+  <li>Scaling Rectified Flow Transformers for High-Resolution Image Synthesis</li>
+  <li>Flow Matching for Generative Modeling</li>
+</ul>
+
+<p>▶️ <a href="https://colab.research.google.com/github/fatemehazimi990/fatemehazimi990.github.io/blob/source/notebook/FlowMatching_SD3.ipynb"><strong>Open in Colab</strong></a><br />
+📄 <a href="https://nbviewer.org/github/fatemehazimi990/fatemehazimi990.github.io/blob/source/notebook/FlowMatching_SD3.ipynb"><strong>View on nbviewer</strong></a></p>
+
+<p>The Colab link lets you experiment with the notebook live, while the nbviewer version provides a quick read-through.</p>
 
   </article>
 
