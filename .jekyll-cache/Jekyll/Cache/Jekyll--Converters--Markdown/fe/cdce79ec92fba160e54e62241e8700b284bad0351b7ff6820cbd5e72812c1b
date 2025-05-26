@@ -1,0 +1,26 @@
+I"<div class="projects grid">
+
+  
+  
+  <div class="grid-item">
+    
+    <a href="/projects/HS2S/">
+    
+      <div class="card hoverable">
+        
+        <img src="/assets/img/teaser.png" alt="project thumbnail" />
+        
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">HS2S</h2>
+          <p class="card-text">Hybrid Sequence to Sequence Model for Video Object Segmentation</p>
+          <div class="row ml-1 mr-1 p-0">
+            
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+
+
+</div>
+:ET
